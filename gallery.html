@@ -1,0 +1,681 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery</title>
+    <link rel="stylesheet" href="css/gallery-main.css">
+<!--    grid bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+<!--    awesome icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--    favicon-->
+    <link rel="icon" href="images/favicon.svg">
+<!--font-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+ 
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-7">
+                    <div class="logo">
+                        <a href="index.html"><img src="images/logo.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-5 ">
+                    <div class="menu" id="myLinks">
+                        <div class="menucon">
+                            <a href="index.html">Giới thiệu</a>
+                            <div class="dropdown">
+                                <a href="#">Gallery</a>
+                                <div class="dropdown-content">
+                                  <a href="#">Đội ngũ giáo viên</a>
+                                  <a href="#">Sản phẩm học viên</a>
+                                  <a href="#">Học viên ưu tú</a>
+                                </div>
+                            </div>                         
+                            <div class="dropdown">
+                                <a href="#">Khoá học</a>
+                                <div class="dropdown-content">
+                                  <a href="#">Khoá học đơn</a>
+                                  <a href="#">Khoá học trọn bộ</a>               
+                                </div>
+                            </div> 
+                            <a href="#">Khoá học của tôi</a>
+                            <a href="#">Tin tức - Sự kiện</a>
+                            <a href="#">Việc làm</a>
+                        </div>
+                        <a href="#">Đăng nhập</a>
+                    </div>
+                    <a href="#" class="nav-mobile" onClick="myFunction()">&#9776;</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="nen">
+            <div class="circle red do1"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="textdecor">
+                            <img src="images/gal-text.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <div class="circle yellow vang1"></div>
+             <div class="circle blue lam1"></div>
+             <div class="circle green luc1"></div>
+            <div class="circle red do2"></div>
+            <div class="circle yellow vang2"></div>
+            <div class="circle blue lam2"></div>
+            <div class="circle green luc2"></div>
+            <div class="circle yellow vang3"></div>
+            <div class="circle red do3"></div>
+<!--            -->
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="sphv">
+                            <div class="slideshow-container">
+
+                                <div class="mySlides fade">
+<!--                                  <div class="numbertext"></div>-->
+                                  <img src="images/slide-img01.png" style="width:100%" alt="">
+<!--                                  <div class="text"></div>-->
+                                </div>
+
+                                <div class="mySlides fade">
+<!--                                  <div class="numbertext">2 / 3</div>-->
+                                  <img src="images/slide-img02.png" style="width:100%" alt="">
+<!--                                  <div class="text"></div>-->
+                                </div>
+
+                                <div class="mySlides fade">
+<!--                                  <div class="numbertext">3 / 3</div>-->
+                                  <img src="images/slide-img03.png" style="width:100%" alt="">
+<!--                                  <div class="text"></div>-->
+                                </div>
+                                <div class="mySlides fade">
+<!--                                  <div class="numbertext">3 / 3</div>-->
+                                  <img src="images/slide-img04.png" style="width:100%" alt="">
+<!--                                  <div class="text"></div>-->
+                                </div>
+                              
+                                
+
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                            </div>
+                                <br>
+
+                            <div style="text-align:center">
+                                  <span class="dot" onclick="currentSlide(1)"></span> 
+                                  <span class="dot" onclick="currentSlide(2)"></span> 
+                                  <span class="dot" onclick="currentSlide(3)"></span> 
+                                  <span class="dot" onclick="currentSlide(4)"></span> 
+                                   
+                            </div>
+                            <br><br>
+<!--gallery sp hocvien-->
+                            <div class="tab">
+                              <button class="tablinks" onclick="openCity(event, 'All')" id="defaultOpen">Tất cả</button>
+                              <button class="tablinks" onclick="openCity(event, 'Khoahocdon')">Khoá học đơn</button>
+                              <button class="tablinks" onclick="openCity(event, 'Khoatronbo')">Khoá trọn bộ</button>
+                            </div>
+
+                            <div id="All" class="tabcontent">
+                              <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-4 pb-4 col-6">
+                                        <div class="card">
+                                          <img src="images/card-img1.png" alt="Avatar" style="width:100%">
+                                          <div class="infocard">
+                                              <div class="app">
+                                              <img src="images/Ai.png" alt="" style="width: 32px;height: 32px">
+                                              <img src="images/pts.png" alt="" style="width: 32px;height: 32px">
+                                              </div>
+                                              <div class="tt-card">
+                                              <p>Bộ nhận diện thương hiệu</p>
+                                              <h4><b>CAFIANO</b></h4>  
+                                              </div>
+                                          </div>
+                                            <div class="cardoverlay">
+                                              
+                                              <button class="nut"><a href="#">Ấn để xem ^_^</a></button>
+                                              
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 pb-4 col-6">
+                                        <div class="card">
+                                          <img src="images/card-img2.png" alt="Avatar" style="width:100%">
+                                          <div class="infocard">
+                                              <div class="app">
+                                              <img src="images/figma.png" alt="">
+                                              </div>
+                                              <div class="tt-card">
+                                              <p>Thiết kế giao diện App</p>
+                                              <h4><b>BLOOM</b></h4>  
+                                              </div>
+                                          </div>
+                                            <div class="cardoverlay">
+                                              
+                                              <button class="nut"><a href="#">Ấn để xem ^_^</a></button>
+                                              
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 pb-4 col-6">
+                                        <div class="card">
+                                          <img src="images/card-img3.png" alt="Avatar" style="width:100%">
+                                          <div class="infocard">
+                                              <div class="app">
+                                              <img src="images/Ae.png" alt="">
+                                              </div>
+                                              <div class="tt-card">
+                                              <p>3D Short Film</p>
+                                              <h4><b>NAPO</b></h4>  
+                                              </div>
+                                          </div>
+                                            <div class="cardoverlay">
+                                              
+                                              <button class="nut"><a href="#">Ấn để xem ^_^</a></button>
+                                              
+                                            </div>
+                                        </div>
+                                    </div>
+                                  
+                               
+                                    <div class="col-lg-4 pb-4 col-6">
+                                        <div class="card">
+                                          <img src="images/card-img4.png" alt="Avatar" style="width:100%">
+                                          <div class="infocard">
+                                              <div class="app">
+                                              <img src="images/figma.png" alt="">
+                                              </div>
+                                              <div class="tt-card">
+                                              <p>Thiết kế giao diện Web</p>
+                                              <h4><b>CHOCOLATE</b></h4>  
+                                              </div>
+                                          </div>
+                                            <div class="cardoverlay">
+                                              
+                                              <button class="nut"><a href="#">Ấn để xem ^_^</a></button>
+                                              
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 pb-4 col-6">
+                                        <div class="card">
+                                          <img src="images/card-img5.png" alt="Avatar" style="width:100%">
+                                          <div class="infocard">
+                                              <div class="app">
+                                              <img src="images/Ai.png" alt="" style="width: 32px;height: 32px">
+                                              <img src="images/pts.png" alt="" style="width: 32px;height: 32px">
+                                              </div>
+                                              <div class="tt-card">
+                                              <p>Bộ nhận diện thương hiệu</p>
+                                              <h4><b>CORRU</b></h4>  
+                                              </div>
+                                          </div>
+                                            <div class="cardoverlay">
+                                              
+                                              <button class="nut"><a href="#">Ấn để xem ^_^</a></button>
+                                              
+                                            </div>
+                                        </div>
+                                    </div> 
+                                    <div class="col-lg-4 pb-4 col-6">
+                                        <div class="card">
+                                          <img src="images/card-img6.png" alt="Avatar" style="width:100%">
+                                          <div class="infocard">
+                                              <div class="app">
+                                              <img src="images/figma.png" alt="">
+                                              </div>
+                                              <div class="tt-card">
+                                              <p>Thiết kế giao diện App</p>
+                                              <h4><b>GARDEN</b></h4>  
+                                              </div>
+                                          </div>
+                                            <div class="cardoverlay">
+                                              
+                                              <button class="nut"><a href="#">Ấn để xem ^_^</a></button>
+                                              
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <div class="row">
+                                    <div class="col-lg-4 pb-4 col-6">
+                                        <div class="card">
+                                          <img src="images/card-img7.png" alt="Avatar" style="width:100%">
+                                          <div class="infocard">
+                                              <div class="app">
+                                              <img src="images/Ae.png" alt="">
+                                              </div>
+                                              <div class="tt-card">
+                                              <p>3D Short Film</p>
+                                              <h4><b>LOOP</b></h4>  
+                                              </div>
+                                          </div>
+                                            <div class="cardoverlay">
+                                              
+                                              <button class="nut"><a href="#">Ấn để xem ^_^</a></button>
+                                              
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 pb-4 col-6">
+                                        <div class="card">
+                                          <img src="images/card-img8.png" alt="Avatar" style="width:100%">
+                                          <div class="infocard">
+                                              <div class="app">
+                                              <img src="images/figma.png" alt="">
+                                              </div>
+                                              <div class="tt-card">
+                                              <p>Thiết kế giao diện Web</p>
+                                              <h4><b>MY FRABRIQUE</b></h4>  
+                                              </div>
+                                          </div>
+                                            <div class="cardoverlay">
+                                              
+                                              <button class="nut"><a href="#">Ấn để xem ^_^</a></button>
+                                              
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 pb-4 col-6">
+                                        <div class="card">
+                                          <img src="images/card-img9.png" alt="Avatar" style="width:100%">
+                                          <div class="infocard">
+                                              <div class="app">
+                                              <img src="images/Ai.png" alt="" style="width: 32px;height: 32px">
+                                              <img src="images/pts.png" alt="" style="width: 32px;height: 32px">
+                                              </div>
+                                              <div class="tt-card">
+                                              <p>Bộ nhận diện thương hiệu</p>
+                                              <h4><b>ERBE</b></h4>  
+                                              </div>
+                                          </div>
+                                          <div class="cardoverlay">
+                                              
+                                              <button class="nut"><a href="erbe.html">Ấn để xem ^_^</a></button>
+                                              
+                                            </div>
+                                        </div>
+                                    </div>
+                                  
+                                </div> 
+                                  <div class="row">
+                                      <div class="col-12"><center>
+                                          <div id="myDIV">
+                                              <button class="btn active">1</button>
+                                              <button class="btn ">2</button>
+                                              <button class="btn">3</button>
+                                              <button class="btn">4</button>
+                                              <button class="btn">5</button>
+                                          </div></center>
+                                      </div>
+                                  </div>
+                              </div>
+                            </div>
+
+                            <div id="Khoahocdon" class="tabcontent">
+                              <div class="container">
+                                  <div class="row">
+                                       <div class="col-lg-4 col-6">
+                                        <div class="card">
+                                          <img src="images/card-img2.png" alt="Avatar" style="width:100%">
+                                          <div class="infocard">
+                                              <div class="app">
+                                              <img src="images/figma.png" alt="">
+                                              </div>
+                                              <div class="tt-card">
+                                              <p>Thiết kế giao diện App</p>
+                                              <h4><b>BLOOM</b></h4>  
+                                              </div>
+                                          </div>
+                                            <div class="cardoverlay">
+                                              
+                                              <button class="nut"><a href="#">Ấn để xem ^_^</a></button>
+                                              
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-6">
+                                        <div class="card">
+                                          <img src="images/card-img3.png" alt="Avatar" style="width:100%">
+                                          <div class="infocard">
+                                              <div class="app">
+                                              <img src="images/Ae.png" alt="">
+                                              </div>
+                                              <div class="tt-card">
+                                              <p>3D Short Film</p>
+                                              <h4><b>NAPO</b></h4>  
+                                              </div>
+                                          </div>
+                                            <div class="cardoverlay">
+                                              
+                                              <button class="nut"><a href="#">Ấn để xem ^_^</a></button>
+                                              
+                                            </div>
+                                        </div>
+                                    </div>
+                                        <div class="col-lg-4 pb-4 col-6">
+                                        <div class="card">
+                                          <img src="images/card-img4.png" alt="Avatar" style="width:100%">
+                                          <div class="infocard">
+                                              <div class="app">
+                                              <img src="images/figma.png" alt="">
+                                              </div>
+                                              <div class="tt-card">
+                                              <p>Thiết kế giao diện Web</p>
+                                              <h4><b>CHOCOLATE</b></h4>  
+                                              </div>
+                                          </div>
+                                            <div class="cardoverlay">
+                                              
+                                              <button class="nut"><a href="#">Ấn để xem ^_^</a></button>
+                                              
+                                            </div>
+                                        </div>
+                                    </div>
+                                  
+                                       <div class="col-lg-4 col-6">
+                                        <div class="card">
+                                          <img src="images/card-img6.png" alt="Avatar" style="width:100%">
+                                          <div class="infocard">
+                                              <div class="app">
+                                              <img src="images/figma.png" alt="">
+                                              </div>
+                                              <div class="tt-card">
+                                              <p>Thiết kế giao diện App</p>
+                                              <h4><b>GARDEN</b></h4>  
+                                              </div>
+                                          </div>
+                                            <div class="cardoverlay">
+                                              
+                                              <button class="nut"><a href="#">Ấn để xem ^_^</a></button>
+                                              
+                                            </div>
+                                        </div>
+                                    </div>
+                                        <div class="col-lg-4 pb-4 col-6">
+                                        <div class="card">
+                                          <img src="images/card-img7.png" alt="Avatar" style="width:100%">
+                                          <div class="infocard">
+                                              <div class="app">
+                                              <img src="images/Ae.png" alt="">
+                                              </div>
+                                              <div class="tt-card">
+                                              <p>3D Short Film</p>
+                                              <h4><b>LOOP</b></h4>  
+                                              </div>
+                                          </div>
+                                            <div class="cardoverlay">
+                                              
+                                              <button class="nut"><a href="#">Ấn để xem ^_^</a></button>
+                                              
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-6">
+                                        <div class="card">
+                                          <img src="images/card-img8.png" alt="Avatar" style="width:100%">
+                                          <div class="infocard">
+                                              <div class="app">
+                                              <img src="images/figma.png" alt="">
+                                              </div>
+                                              <div class="tt-card">
+                                              <p>Thiết kế giao diện Web</p>
+                                              <h4><b>MY FRABRIQUE</b></h4>  
+                                              </div>
+                                          </div>
+                                            <div class="cardoverlay">
+                                              
+                                              <button class="nut"><a href="#">Ấn để xem ^_^</a></button>
+                                              
+                                            </div>
+                                        </div>
+                                    </div>
+                                  </div>
+<!--
+                                  <div class="row">
+                                      <div class="col-12"><center>
+                                          <div id="myDIV">
+                                              <button class="btn active">1</button>
+                                              <button class="btn ">2</button>
+                                              <button class="btn">3</button>
+                                              <button class="btn">4</button>
+                                              <button class="btn">5</button>
+                                          </div></center>
+                                      </div>
+                                  </div>
+-->
+                                </div> 
+                            </div>
+
+                            <div id="Khoatronbo" class="tabcontent">
+                              <div class="container">
+                                  <div class="row">
+                                       <div class="col-lg-4 pb-4 col-6">
+                                        <div class="card">
+                                          <img src="images/card-img1.png" alt="Avatar" style="width:100%">
+                                          <div class="infocard">
+                                              <div class="app">
+                                              <img src="images/Ai.png" alt="" style="width: 32px;height: 32px">
+                                              <img src="images/pts.png" alt="" style="width: 32px;height: 32px">
+                                              </div>
+                                              <div class="tt-card">
+                                              <p>Bộ nhận diện thương hiệu</p>
+                                              <h4><b>CAFIANO</b></h4>  
+                                              </div>
+                                          </div>
+                                            <div class="cardoverlay">
+                                              
+                                              <button class="nut"><a href="#">Ấn để xem ^_^</a></button>
+                                              
+                                            </div>
+                                        </div>
+                                    </div>
+                                        <div class="col-lg-4 col-6">
+                                        <div class="card">
+                                          <img src="images/card-img5.png" alt="Avatar" style="width:100%">
+                                          <div class="infocard">
+                                              <div class="app">
+                                              <img src="images/Ai.png" alt="" style="width: 32px;height: 32px">
+                                              <img src="images/pts.png" alt="" style="width: 32px;height: 32px">
+                                              </div>
+                                              <div class="tt-card">
+                                              <p>Bộ nhận diện thương hiệu</p>
+                                              <h4><b>CORRU</b></h4>  
+                                              </div>
+                                          </div>
+                                            <div class="cardoverlay">
+                                              
+                                              <button class="nut"><a href="#">Ấn để xem ^_^</a></button>
+                                              
+                                            </div>
+                                        </div>
+                                    </div> 
+                                        <div class="col-lg-4 col-6">
+                                        <div class="card">
+                                          <img src="images/card-img9.png" alt="Avatar" style="width:100%">
+                                          <div class="infocard">
+                                              <div class="app">
+                                              <img src="images/Ai.png" alt="" style="width: 32px;height: 32px">
+                                              <img src="images/pts.png" alt="" style="width: 32px;height: 32px">
+                                              </div>
+                                              <div class="tt-card">
+                                              <p>Bộ nhận diện thương hiệu</p>
+                                              <h4><b>ERBE</b></h4>  
+                                              </div>
+                                          </div>
+                                          <div class="cardoverlay">
+                                              
+                                              <button class="nut"><a href="erbe.html">Ấn để xem ^_^</a></button>
+                                              
+                                            </div>
+                                        </div>
+                                    </div>
+                                  </div>
+<!--
+                                  <div class="row">
+                                      <div class="col-12"><center>
+                                          <div id="myDIV">
+                                              <button class="btn active">1</button>
+                                              <button class="btn ">2</button>
+                                              <button class="btn">3</button>
+                                              <button class="btn">4</button>
+                                              <button class="btn">5</button>
+                                          </div></center>
+                                      </div>
+                                  </div>
+-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!--footer-->
+            <div class="footer">
+                <div class="container">
+                    <div class="row pt-2">
+                        <div class="col-12">
+                            <div class="footerlogo">
+                                <a href="#trang1"><img src="images/logo.svg" alt=""></a>
+                                 <img src="images/bctlogo.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row ttlhe">
+                        <div class="col-lg-3">
+                            <div class="cot cot1">
+                                <ul>
+                                    <li><b>Văn phòng:</b>21 Trần Phú, Q5, TP.HCM</li>
+                                    <li><b>Số điện thoại:</b>0346271721</li>
+                                    <li><b>Email:</b>deshaus@edu.vn</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="cot cot2">
+                                <ul>
+                                    <li><b>Giờ làm việc: </b></li>
+                                    <li><b>Thứ 2 - Thứ 7:</b> 9:00 - 21:00</li>
+                                    <li><b>Chủ nhật:</b>9:00 - 17:00</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="cot cot3">
+                                <ul>
+                                    <li><b>Mã số thuế:</b>0315828291</li>
+                                    <li><b>Cấp ngày:</b> 02/08/2019</li>
+                                    <li><b>Nơi cấp:</b>Sở kế hoạch đầu tư TPHCM</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-12">
+                            <div class="cot social">
+                                <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fab fa-instagram-square"></i></a>
+                                <a href="#"><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <center>
+                            <div class="copyright"><p>Copyright@DesHaus 2021</p></div>
+                            </center>    
+                        </div>    
+                    </div>
+                </div>
+    </div>
+        </div>
+        
+    </main>
+<!--menu hamburger -->
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+    </script>
+<!--slide img-->
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+    </script>
+<!--tab filter sphocvien-->
+    <script>
+    function openCity(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+        // Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+    </script>
+<!--active button-->
+    <script>
+    // Add active class to the current button (highlight it)
+    var header = document.getElementById("myDIV");
+    var btns = header.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function() {
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+      });
+    }
+    </script>
+<!--font awesome-->
+    <script src="https://kit.fontawesome.com/e9d6575d7a.js" crossorigin="anonymous"></script>
+</body>
+</html>
