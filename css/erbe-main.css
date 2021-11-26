@@ -20,8 +20,7 @@ body{
 header{
     width: 100vw;
     height: 70px;
-    background: linear-gradient(155deg, rgb(255, 255, 255, .15), transparent);
-	backdrop-filter: blur(30px); 
+    background: #F5EFE9;
     box-shadow: 2px 4px 6px rgba(0, 0, 0, .1), inset 0 0 0 2px rgba(255, 255, 255, 0.1);
     position: fixed;
     transition: top 0.3s;
@@ -40,7 +39,7 @@ header{
 }
 .menu a{
     float: left;
-    padding: 10px 15px;
+    padding: 15px 15px;
     text-decoration: none;
     color: #0E4C6A;
     font-size: 16px;
@@ -59,7 +58,7 @@ header{
 .dropdown a {
   font-size: 16px;  
   font-weight: 300;
-    padding: 10px 15px 30px;
+    padding: 15px 15px 30px;
   border: none;
   outline: none;
   color:  #0E4C6A;
@@ -75,7 +74,7 @@ header{
 .dropdown-content {
   display: none;
   position: absolute;
-  top: 53px;
+  top: 52px;
   border-radius: 5px;
   min-width: 160px;    
   background: #F5EFE9;  
@@ -468,8 +467,8 @@ img {
     padding: 16px;
     position: relative;
 }
-.card img{
-    border-radius: 15px;
+.cardimg img{
+    border-radius: 10px;
 }
 .card {
     background: linear-gradient(155deg, rgb(255, 255, 255, .15), transparent);
