@@ -35,10 +35,12 @@ header{
     z-index: 3;
 }
 .menu a:hover {
-  font-weight: 700;
+  /* font-weight: 700; */
   text-decoration: underline;
 }
-
+.menu a:hover i{
+    font-weight: 700;
+}
 .dropdown {
   float: left;
   overflow: hidden;

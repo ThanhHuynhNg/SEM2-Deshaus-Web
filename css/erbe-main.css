@@ -42,27 +42,28 @@ header{
     padding: 15px 15px;
     text-decoration: none;
     color: #0E4C6A;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 300;
     z-index: 3;
 }
 .menu a:hover {
-  font-weight: 400;
+  /* font-weight: 700; */
   text-decoration: underline;
 }
-
+.menu a:hover i{
+    font-weight: 700;
+}
 .dropdown {
   float: left;
   overflow: hidden;
 }
 .dropdown a {
-  font-size: 16px;  
+  font-size: 18px;  
   font-weight: 300;
     padding: 15px 15px 30px;
   border: none;
   outline: none;
   color:  #0E4C6A;
-  
   margin: 0;
 }
 
