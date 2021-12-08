@@ -878,7 +878,7 @@ input{
     padding: 10px 12px;
     margin: 10px 0;
     border-radius: 5px;
-    box-sizing: border-box;
+    box-sizing: border-box;    
 }
 input[type=submit]{
     font-weight: 300;
