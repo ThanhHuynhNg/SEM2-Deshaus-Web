@@ -41,7 +41,7 @@ header{
     float: left;
     padding: 15px 15px;
     text-decoration: none;
-    color: #0E4C6A;
+    color: #333;
     font-size: 18px;
     font-weight: 300;
     z-index: 3;
@@ -63,7 +63,7 @@ header{
     padding: 15px 15px 30px;
   border: none;
   outline: none;
-  color:  #0E4C6A;
+  color:  #333;
   margin: 0;
 }
 
@@ -88,7 +88,7 @@ header{
 
 .dropdown-content a {
   float: none;
-  color: #0E4C6A;
+  color: #333;
   padding: 10px 16px;
   text-decoration: none;
   display: block;
@@ -108,7 +108,7 @@ header{
 .nav-mobile{
     display: none;
     text-decoration: none;
-    color: #0E4C6A;
+    color: #333;
     font-size: 24px;
 }
 
@@ -237,6 +237,8 @@ main{
 .do3{
     top: 195%;
     left: 25%;
+    width: 100px;
+    height: 100px;
 }
 .yellow{
      width: 250px;
